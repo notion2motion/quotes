@@ -24,24 +24,24 @@
             flex-direction: column;
             max-width: 95%;
             margin: auto;
-            border: 1px solid #000000;
+            border: 2px solid #000000;
             border-radius: 3px;
         }
 
            
         .greet{
-            font-size: 1.4em;
+            font-size: 1.6em;
         }
 
         .date {
       
             font-family: monospace;
-            font-size: 1.3em;
+            font-size: 1.4em;
         }
 
         .clock {
             font-family: monospace;
-            font-size: 1.3em;
+            font-size: 1.4em;
         }
 
         .time {
@@ -50,7 +50,7 @@
         }
 
         .colon {
-            font-size: 1.3em;
+            font-size: 1.4em;
             display: inline-block;
         }
 
@@ -92,7 +92,7 @@ function dispalyGreetings(today){
         hrs = today.getHours();
         name="Natasha"
         if (hrs < 12)
-            greet = 'Good Morning  '+name;
+            greet = 'Good Morning<br />'+name;
         else if (hrs >= 12 && hrs <= 17)
             greet = 'Good Afternoon '+name;
         else if (hrs >= 17 && hrs <= 24)
